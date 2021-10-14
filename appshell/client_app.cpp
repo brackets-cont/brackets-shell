@@ -75,7 +75,7 @@ void ClientApp::OnContextReleased(CefRefPtr<CefBrowser> browser,
   for (; it != render_delegates_.end(); ++it)
     (*it)->OnContextReleased(this, browser, frame, context);
  
-  // This is to fix the crash on quit(https://github.com/adobe/brackets/issues/7683) 
+  // This is to fix the crash on quit(https://github.com/brackets-cont/brackets/issues/7683) 
   // after integrating CEF 2171.
 
   // On Destruction, callback_map_ was getting destroyed

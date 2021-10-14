@@ -29,7 +29,7 @@ Normally, the installer scripts are run via Jenkins on our build machine. These 
 9. You may need to locally edit `wix.base` in brackets-win-install-build.xml if the Wix install folder doesn't match what's hardcoded there
 
 ## Update Release Number with Grunt
-To rev the Brackets release number with Grunt, both brackets-shell and brackets repositories must be updated. For the initial Grunt setup, see: https://github.com/adobe/brackets/wiki/Grunt-Setup.
+To rev the Brackets release number with Grunt, both brackets-shell and brackets repositories must be updated. For the initial Grunt setup, see: https://github.com/brackets-cont/brackets/wiki/Grunt-Setup.
 
 brackets       > grunt set-release --release=NN
 brackets-shell > grunt set-release --release=NN
