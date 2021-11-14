@@ -1,16 +1,16 @@
 ## Overview
 
-This is the CEF3-based application shell for [Brackets](https://github.com/adobe/brackets). 
+This is the CEF3-based application shell for [Brackets](https://github.com/brackets-cont/brackets). 
 
-Please read the main [README in the brackets repo](https://github.com/adobe/brackets/blob/master/README.md) 
+Please read the main [README in the brackets repo](https://github.com/brackets-cont/brackets/blob/master/README.md) 
 for general information about Brackets.
 
 If you are interested in contributing to this shell, let us know on the 
-[brackets-dev Google Group](http://groups.google.com/group/brackets-dev), 
-or on the [#brackets channel on freenode](http://webchat.freenode.net/?channels=brackets).
+[Brackets Discord Server](https://discord.gg/rBpTBPttca), 
+or on the [Brackets Continued Matrix Space](https://matrix.to/#/#brackets-continued:scanuproductions.com).
 
 If you run into any issues with this new shell, please file a bug in the 
-[brackets issue tracker](https://github.com/adobe/brackets/issues).
+[brackets issue tracker](https://github.com/brackets-cont/brackets/issues).
 
 _Note: The brackets-shell is only maintained for use by the Brackets project. Although some people have 
 definitely had success using it as an app shell for other projects, we don't provide any official 
@@ -20,7 +20,7 @@ will likely find it easier to use a project like [NW.js](https://github.com/nwjs
 ## Running
 
 There are no downloads for the brackets-shell. You either need to 
-build from source, or grab the [latest Brackets installer](http://download.brackets.io) 
+build from source, or grab the [latest Brackets installer](http://brackets.io) 
 and run the shell from that.
 
 When the app is launched, it first looks for an index.html file in the following locations:
@@ -35,4 +35,4 @@ The preferences are stored in `{USER}/Library/Application Support/Brackets/cef_d
 
 ## Building
 
-Information on building the app shell can be found on the [brackets-shell wiki](https://github.com/adobe/brackets-shell/wiki/Building-brackets-shell).
+Information on building the app shell can be found on the [brackets-shell wiki](https://github.com/brackets-cont/brackets-shell/wiki/Building-brackets-shell).

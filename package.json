@@ -1,13 +1,13 @@
 {
     "name": "Brackets-Shell",
-    "version": "1.15.0-0",
+    "version": "2.0.0-0",
     "homepage": "http://brackets.io",
     "issues": {
-        "url": "http://github.com/adobe/brackets-shell/issues"
+        "url": "http://github.com/brackets-cont/brackets-shell/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/adobe/brackets-shell.git",
+        "url": "https://github.com/brackets-cont/brackets-shell.git",
         "branch": "",
         "SHA": ""
     },
